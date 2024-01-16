@@ -34,7 +34,7 @@ spec:
 
       - name: nginx
 
-        image: 533267374876.dkr.ecr.ap-south-1.amazonaws.com/demoproject:SAMPLE-PROJECT-cnumber  
+        image: 637423459204.dkr.ecr.ap-south-1.amazonaws.com/demo:SAMPLE-PROJECT-cnumber  
 
         ports:
 
