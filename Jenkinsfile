@@ -47,7 +47,7 @@ pipeline {
                   export AWS_DEFAULT_REGION=ap-south-1
 		  chmod +x changebuildnumber.sh
                   ./changebuildnumber.sh $BUILD_NUMBER
-                  aws eks-cluster --region ap-south-1 update-kubeconfig --name bgunti
+                  aws eksnode1 --region ap-south-1 update-kubeconfig --name bgunti
                   cat deployment.yml
                   kubectl apply -f  deployment-new.yml
                   kubectl get pods 
